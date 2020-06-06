@@ -1,0 +1,43 @@
+html{
+	height: 100%;
+}
+body{
+	font-family: "Arial";
+	font-weight: bold;
+}
+#container{
+	white-space: nowrap;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	font-size: 0;
+	border: 2px solid #000000;
+}
+
+#time{
+	display: inline-block;
+	background-color: white;
+	color: #ff0000;
+}
+
+#wrap{
+	background-color: #000000;
+	text-align: center;
+	border: outset silver;
+}
+
+#status{
+	width: 4em;
+	height: 4em;
+}
+
+.game-btn, #status{
+	cursor: pointer;
+	line-height: 100%;
+	font-size: 2vh;
+	background-color: silver;
+	border: outset silver;
+	vertical-align: bottom;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
